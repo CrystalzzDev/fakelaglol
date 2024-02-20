@@ -15,7 +15,7 @@ fl.TextColor3 = Color3.fromRGB(0, 0, 0)
 fl.TextScaled = true
 local bindable = Instance.new("BindableFunction")
 --notification (encrypted so u cant edit it)
-
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CrystalzzDev/notif/main/loadstring"))()
 -- anyways. scripts here :D
 local function fakeLag()
 	local script = Instance.new('LocalScript', fl)
